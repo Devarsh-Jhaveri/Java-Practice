@@ -1,9 +1,9 @@
 import java.util.*;
-class Pattern10 {
+public class Pattern10 {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
         int n=Integer.parseInt(scn.nextLine());
-        int is=-1, st=1, os=n/2;
+        int is=-1, os=n/2;
         for (int i=1;i<=n;i++){
             for(int j=1; j<=os;j++){
                 System.out.print("\t");    
