@@ -17,11 +17,9 @@ class DigitFrequency {
 
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
-        System.out.println("Enter your no.");
         int n=Integer.parseInt(scn.nextLine());
-        System.out.println("Enter which digit's frequency you wanna see");
         int d=Integer.parseInt(scn.nextLine());
         int freq=getfreq(n,d);
-        System.out.println(freq+" is frequency");
+        System.out.println(freq);
     }
 }
